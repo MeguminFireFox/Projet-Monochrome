@@ -27,9 +27,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Screenspace: 1
-    - _mult: 2.97
+    - _mult: 2.77
     - _pwer: 0.69
     m_Colors:
-    - _Bottom: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+    - _Bottom: {r: 1, g: 0.9872956, b: 0.8443396, a: 0}
     - _Top: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
