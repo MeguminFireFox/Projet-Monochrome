@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TileableTexture
+  m_Name: TileableTexture 4
   m_Shader: {fileID: -6465566751694194690, guid: 3a581a010ea74c542954224ed8d44a8b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Side_Texture:
-        m_Texture: {fileID: 2800000, guid: 14e117a2a908ed840b8a8c4949f4da4d, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_6ae1f3e640804b6eb6869b0c85243609_Out_0_Texture2D:
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Top_Texture:
-        m_Texture: {fileID: 2800000, guid: 10651ac447a091e4b8c5d0331e34dd0f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -59,7 +59,7 @@ Material:
     - _Scale_Top: 0.56
     - _Shadows: 0.31
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.6921057, g: 0.9716981, b: 0.76138526, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1804161065018079739
 MonoBehaviour:
