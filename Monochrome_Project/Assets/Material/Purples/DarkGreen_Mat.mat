@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: YellowPettern_Mat
+  m_Name: DarkGreen_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 3a581a010ea74c542954224ed8d44a8b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Side_Texture:
-        m_Texture: {fileID: 2800000, guid: 3f8b91b6ea9ed35419c97b15fdd60b86, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_6ae1f3e640804b6eb6869b0c85243609_Out_0_Texture2D:
@@ -51,15 +51,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _Max_Brightness: 0.95
-    - _Min_Brightness: 1.32
+    - _Min_Brightness: 0.36
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 0.94
-    - _Scale_Sides: 0.4
-    - _Scale_Top: 0.78
-    - _Shadows: 0.26
+    - _Scale_Sides: 1.09
+    - _Scale_Top: 0.56
+    - _Shadows: 0.31
     m_Colors:
-    - _Color: {r: 0.9150943, g: 0.82304364, b: 0.12517802, a: 0}
+    - _Color: {r: 0.3827805, g: 0.24377, b: 0.6226415, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1804161065018079739
 MonoBehaviour:
