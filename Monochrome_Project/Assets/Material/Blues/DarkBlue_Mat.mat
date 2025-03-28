@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Green_Neon_Mat
+  m_Name: DarkBlue_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 3a581a010ea74c542954224ed8d44a8b,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: e7285cac8ef3db143b2b8da615bbf6f7, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,42 +24,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Side_Texture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_6ae1f3e640804b6eb6869b0c85243609_Out_0_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Top_Texture:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Max_Brightness: 0.24
-    - _Min_Brightness: 1.74
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Scale: 0.94
-    - _Scale_Sides: 0.89
     - _Scale_Top: 0.56
-    - _Shadows: 0.78
     m_Colors:
-    - _Color: {r: 0.71019924, g: 0.4666667, b: 1, a: 0}
+    - _Color: {r: 0.055224285, g: 0.40680346, b: 0.6886792, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1804161065018079739
 MonoBehaviour:

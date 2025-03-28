@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Green_Outline_Mat
+  m_Name: Purple_Outline_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 73c9830ce529b7745ac366b7e7d3e857,
     type: 3}
   m_Parent: {fileID: 0}
@@ -55,5 +55,5 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Outline_Color: {r: 0.0039215707, g: 0.034291256, b: 0.14117648, a: 0}
+    - _Outline_Color: {r: 0.09745051, g: 0.0039215707, b: 0.14117648, a: 0}
   m_BuildTextureStacks: []

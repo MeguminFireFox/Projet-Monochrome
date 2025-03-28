@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DarkGreen_Mat
+  m_Name: Light_Blue_Mat 1
   m_Shader: {fileID: -6465566751694194690, guid: 3a581a010ea74c542954224ed8d44a8b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -59,7 +59,7 @@ Material:
     - _Scale_Top: 0.56
     - _Shadows: 0.31
     m_Colors:
-    - _Color: {r: 0.3827805, g: 0.24377, b: 0.6226415, a: 0}
+    - _Color: {r: 0.79294235, g: 0.89388055, b: 0.9716981, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1804161065018079739
 MonoBehaviour:
