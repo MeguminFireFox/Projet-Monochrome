@@ -1,0 +1,258 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.533,
+		"Fps": 30.0,
+		"Loop": true,
+		"AreBeziersRestricted": true,
+		"CurveCount": 13,
+		"TotalSegmentCount": 22,
+		"TotalPointCount": 71,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadX",
+			"Segments": [
+				0,
+				0.5,
+				1,
+				0.089,
+				0.5,
+				0.178,
+				-0.5,
+				0.267,
+				-0.5,
+				1,
+				0.356,
+				-0.5,
+				0.444,
+				0.5,
+				0.533,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadZ",
+			"Segments": [
+				0,
+				-0.3,
+				1,
+				0.089,
+				-0.3,
+				0.178,
+				0.4,
+				0.267,
+				0.4,
+				1,
+				0.356,
+				0.4,
+				0.444,
+				-0.3,
+				0.533,
+				-0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairPhysicX",
+			"Segments": [
+				0,
+				0.4,
+				1,
+				0.089,
+				0.4,
+				0.178,
+				-1,
+				0.267,
+				-1,
+				1,
+				0.356,
+				-1,
+				0.444,
+				0.4,
+				0.533,
+				0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapePhysicX",
+			"Segments": [
+				0,
+				0.4,
+				1,
+				0.089,
+				0.4,
+				0.178,
+				-0.5,
+				0.267,
+				-0.5,
+				1,
+				0.356,
+				-0.5,
+				0.444,
+				0.4,
+				0.533,
+				0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapePhysicY",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.533,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param2",
+			"Segments": [
+				0,
+				0.5,
+				0,
+				0.533,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtPhysicX",
+			"Segments": [
+				0,
+				0.5,
+				1,
+				0.089,
+				0.5,
+				0.178,
+				-1,
+				0.267,
+				-1,
+				1,
+				0.356,
+				-1,
+				0.444,
+				0.5,
+				0.533,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtZ",
+			"Segments": [
+				0,
+				0.4,
+				0,
+				0.533,
+				0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation3",
+			"Segments": [
+				0,
+				-34,
+				1,
+				0.089,
+				-34,
+				0.178,
+				16,
+				0.267,
+				16,
+				1,
+				0.356,
+				16,
+				0.444,
+				-34,
+				0.533,
+				-34
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation4",
+			"Segments": [
+				0,
+				-50,
+				1,
+				0.089,
+				-50,
+				0.178,
+				0,
+				0.267,
+				0,
+				1,
+				0.356,
+				0,
+				0.444,
+				-50,
+				0.533,
+				-50
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation5",
+			"Segments": [
+				0,
+				14,
+				1,
+				0.089,
+				14,
+				0.178,
+				-50,
+				0.267,
+				-50,
+				1,
+				0.356,
+				-50,
+				0.444,
+				14,
+				0.533,
+				14
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation6",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.089,
+				0,
+				0.178,
+				-50,
+				0.267,
+				-50,
+				1,
+				0.356,
+				-50,
+				0.444,
+				0,
+				0.533,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.533,
+				-1
+			]
+		}
+	]
+}

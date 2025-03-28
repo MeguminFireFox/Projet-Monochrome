@@ -1,0 +1,343 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.267,
+		"Fps": 30.0,
+		"Loop": true,
+		"AreBeziersRestricted": true,
+		"CurveCount": 25,
+		"TotalSegmentCount": 29,
+		"TotalPointCount": 74,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadY",
+			"Segments": [
+				0,
+				0.6,
+				0,
+				0.267,
+				0.6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadZ",
+			"Segments": [
+				0,
+				0.5,
+				1,
+				0.056,
+				0.5,
+				0.111,
+				-1,
+				0.167,
+				-1,
+				1,
+				0.2,
+				-1,
+				0.233,
+				-0.6,
+				0.267,
+				-0.6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairPhysicX",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.167,
+				-1,
+				1,
+				0.2,
+				-1,
+				0.233,
+				1,
+				0.267,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairPhysicY",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapeX",
+			"Segments": [
+				0,
+				-0.3,
+				0,
+				0.267,
+				-0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapeY",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapePhysicX",
+			"Segments": [
+				0,
+				-0.3,
+				0,
+				0.267,
+				-0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapePhysicY",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param2",
+			"Segments": [
+				0,
+				0.6,
+				0,
+				0.267,
+				0.6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param3",
+			"Segments": [
+				0,
+				-0.4,
+				1,
+				0.089,
+				-0.4,
+				0.178,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtY",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtPhysicX",
+			"Segments": [
+				0,
+				-0.3,
+				0,
+				0.267,
+				-0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtPhysicY",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtZ",
+			"Segments": [
+				0,
+				-0.3,
+				0,
+				0.267,
+				-0.3
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamRightLegX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamRightLegY",
+			"Segments": [
+				0,
+				-0.4,
+				0,
+				0.267,
+				-0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamLeftLegX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamLeftLegY",
+			"Segments": [
+				0,
+				-0.4,
+				0,
+				0.267,
+				-0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation3",
+			"Segments": [
+				0,
+				18,
+				1,
+				0.089,
+				18,
+				0.178,
+				-8,
+				0.267,
+				-8
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation4",
+			"Segments": [
+				0,
+				-37,
+				1,
+				0.056,
+				-37,
+				0.111,
+				0,
+				0.167,
+				0,
+				1,
+				0.2,
+				0,
+				0.233,
+				-7,
+				0.267,
+				-7
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation5",
+			"Segments": [
+				0,
+				26,
+				1,
+				0.089,
+				26,
+				0.178,
+				0,
+				0.267,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_Angle_Rotation6",
+			"Segments": [
+				0,
+				-50,
+				1,
+				0.056,
+				-50,
+				0.111,
+				-13,
+				0.167,
+				-13,
+				1,
+				0.2,
+				-13,
+				0.233,
+				-32,
+				0.267,
+				-32
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param",
+			"Segments": [
+				0,
+				-1,
+				0,
+				0.267,
+				-1
+			]
+		}
+	]
+}
