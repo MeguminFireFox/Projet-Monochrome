@@ -1365,7 +1365,7 @@
     "m_StencilDepthFailOperation": 0,
     "m_DepthWrite": false,
     "m_depthWriteMode": 0,
-    "m_AllowMaterialOverride": false,
+    "m_AllowMaterialOverride": true,
     "m_DepthTestMode": 0
 }
 
@@ -6335,10 +6335,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3103.0,
-            "y": 1344.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": 3109.0,
+            "y": 1359.0,
+            "width": 139.0,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -6354,7 +6354,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {

@@ -38,11 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Color_Threshold: 2.19
+    - _Color_Threshold: 3.9
     - _Normal_Threshold: 0.36
     - _OVERLAY: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Outline_Color: {r: 0.33962262, g: 0.08170166, b: 0.08170166, a: 0}
+    - _Outline_Color: {r: 0.2735849, g: 0.080010675, b: 0.060653254, a: 0}
   m_BuildTextureStacks: []
