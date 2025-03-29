@@ -19,4 +19,9 @@ public class PauseMenu : MonoBehaviour
 		}
 
 	}
+
+	public void ResumeMenu()
+	{
+		pauseMenu.gameObject.SetActive(!pauseMenu.gameObject.activeSelf);
+	}
 }
