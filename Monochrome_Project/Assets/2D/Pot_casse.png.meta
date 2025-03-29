@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 3aac19c37bf7b7c4d9d0514b8482586e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pot_casse_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 735
+        width: 418
+        height: 273
+      alignment: 9
+      pivot: {x: 0.48231527, y: 0.13445173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda24ae40276826438ac6d5694f60826
+      internalID: -1241794803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 802
+        width: 153
+        height: 184
+      alignment: 9
+      pivot: {x: 0.20205748, y: 0.90174997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5dbb86841397d43b5202b253599d0b
+      internalID: 1570313856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_2
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 729
+        width: 322
+        height: 313
+      alignment: 9
+      pivot: {x: 0.5306093, y: 0.14180514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb2329027826574282983739b9a5081
+      internalID: 1137407067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_3
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 562
+        width: 115
+        height: 75
+      alignment: 9
+      pivot: {x: 0.16788648, y: 0.467146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78610fd1d990b24b8740dcb6982d21b
+      internalID: -1273853220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 467
+        height: 347
+      alignment: 9
+      pivot: {x: 0.60552746, y: 0.08813899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3075c2d94c2344bc346dbf05fe6c8
+      internalID: -526692397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_5
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 426
+        width: 141
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5349511, y: 0.2412738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7153a230665664d84a0fd8aab2562f
+      internalID: 1417391995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_6
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 239
+        width: 104
+        height: 111
+      alignment: 9
+      pivot: {x: 0.83170027, y: 0.8440818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58e817f454cd242b3a50dc6d77d6d2
+      internalID: 639033896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 45
+        width: 110
+        height: 137
+      alignment: 9
+      pivot: {x: 0.477599, y: 0.85072494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebf9d03f23f11f48813ef87035717bb
+      internalID: -212137635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pot_casse_8
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 64
+        width: 85
+        height: 108
+      alignment: 9
+      pivot: {x: 0.3985366, y: 0.7395626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f08bcdfda69940b39e536414f466c
+      internalID: -1925289775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c28cd4fc9bd9bb24daaeff80ed9b7a31
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pot_casse_0: -1241794803
+      Pot_casse_1: 1570313856
+      Pot_casse_2: 1137407067
+      Pot_casse_3: -1273853220
+      Pot_casse_4: -526692397
+      Pot_casse_5: 1417391995
+      Pot_casse_6: 639033896
+      Pot_casse_7: -212137635
+      Pot_casse_8: -1925289775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: "Assets/Scenes/C\xE9lia.unity"
+    guid: 98f2d9563add07c4f8beba24d262b34c
+  - enabled: 1
+    path: Assets/Scenes/Anna.unity
+    guid: 8374fe404f2222747aa236f31f542e02
   m_configObjects: {}

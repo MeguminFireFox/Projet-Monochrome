@@ -1,0 +1,214 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamHeadX",
+			"GroupId": "ParamGroup",
+			"Name": "Head X"
+		},
+		{
+			"Id": "ParamHeadY",
+			"GroupId": "ParamGroup",
+			"Name": "Head Y"
+		},
+		{
+			"Id": "ParamHeadZ",
+			"GroupId": "ParamGroup",
+			"Name": "Head Z"
+		},
+		{
+			"Id": "ParamHairPhysicX",
+			"GroupId": "ParamGroup",
+			"Name": "Hair Physic X"
+		},
+		{
+			"Id": "ParamHairPhysicY",
+			"GroupId": "ParamGroup",
+			"Name": "Hair Physic Y"
+		},
+		{
+			"Id": "ParamCapeX",
+			"GroupId": "ParamGroup2",
+			"Name": "Cape X"
+		},
+		{
+			"Id": "ParamCapeY",
+			"GroupId": "ParamGroup2",
+			"Name": "Cape Y"
+		},
+		{
+			"Id": "ParamCapePhysicX",
+			"GroupId": "ParamGroup2",
+			"Name": "Cape Physic X"
+		},
+		{
+			"Id": "ParamCapePhysicY",
+			"GroupId": "ParamGroup2",
+			"Name": "Cape Physic Y"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup2",
+			"Name": "Body Z"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup2",
+			"Name": "Body Move"
+		},
+		{
+			"Id": "ParamSkirtX",
+			"GroupId": "ParamGroup3",
+			"Name": "Skirt X"
+		},
+		{
+			"Id": "ParamSkirtY",
+			"GroupId": "ParamGroup3",
+			"Name": "Skirt Y"
+		},
+		{
+			"Id": "ParamSkirtPhysicX",
+			"GroupId": "ParamGroup3",
+			"Name": "Skirt Physic X"
+		},
+		{
+			"Id": "ParamSkirtPhysicY",
+			"GroupId": "ParamGroup3",
+			"Name": "Skirt Physic Y"
+		},
+		{
+			"Id": "ParamSkirtZ",
+			"GroupId": "ParamGroup3",
+			"Name": "Skirt Z"
+		},
+		{
+			"Id": "ParamRightLegX",
+			"GroupId": "ParamGroup4",
+			"Name": "Right Leg X"
+		},
+		{
+			"Id": "ParamRightLegY",
+			"GroupId": "ParamGroup4",
+			"Name": "Right Leg Y"
+		},
+		{
+			"Id": "ParamLeftLegX",
+			"GroupId": "ParamGroup4",
+			"Name": "Left Leg X"
+		},
+		{
+			"Id": "ParamLeftLegY",
+			"GroupId": "ParamGroup4",
+			"Name": "Left Leg Y"
+		},
+		{
+			"Id": "Param_Angle_Rotation3",
+			"GroupId": "ParamGroup5",
+			"Name": "[0]LEFT LEG FOLDING"
+		},
+		{
+			"Id": "Param_Angle_Rotation4",
+			"GroupId": "ParamGroup5",
+			"Name": "[1]LEFT LEG FOLDING"
+		},
+		{
+			"Id": "Param_Angle_Rotation5",
+			"GroupId": "ParamGroup6",
+			"Name": "[0]RIGHT LEG FOLDING"
+		},
+		{
+			"Id": "Param_Angle_Rotation6",
+			"GroupId": "ParamGroup6",
+			"Name": "[1]RIGHT LEG FOLDING"
+		},
+		{
+			"Id": "ParamLeftRight",
+			"GroupId": "",
+			"Name": "LEFT _ RIGHT"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Head"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Cape"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Skirt"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Legs"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "LEFT LEG FOLDING"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "RIGHT LEG FOLDING"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part3",
+			"Name": "RIGHT"
+		},
+		{
+			"Id": "Part",
+			"Name": "LEFT"
+		},
+		{
+			"Id": "LEG_L_l2_Skinning",
+			"Name": "LEG_L_l(Skinning)"
+		},
+		{
+			"Id": "LEG_L_r2_Skinning",
+			"Name": "LEG_L_r(Skinning)"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamHeadX",
+			"ParamHeadY"
+		],
+		[
+			"ParamHairPhysicX",
+			"ParamHairPhysicY"
+		],
+		[
+			"ParamCapeX",
+			"ParamCapeY"
+		],
+		[
+			"ParamCapePhysicX",
+			"ParamCapePhysicY"
+		],
+		[
+			"ParamSkirtX",
+			"ParamSkirtY"
+		],
+		[
+			"ParamSkirtPhysicX",
+			"ParamSkirtPhysicY"
+		],
+		[
+			"ParamRightLegX",
+			"ParamRightLegY"
+		],
+		[
+			"ParamLeftLegX",
+			"ParamLeftLegY"
+		]
+	]
+}
