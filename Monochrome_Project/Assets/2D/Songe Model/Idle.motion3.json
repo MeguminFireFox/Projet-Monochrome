@@ -1,0 +1,174 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 1.233,
+		"Fps": 30.0,
+		"Loop": true,
+		"AreBeziersRestricted": true,
+		"CurveCount": 8,
+		"TotalSegmentCount": 14,
+		"TotalPointCount": 48,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadX",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.411,
+				0,
+				0.822,
+				0,
+				1.233,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHeadY",
+			"Segments": [
+				0,
+				1,
+				1,
+				0.2,
+				1,
+				0.4,
+				-1,
+				0.6,
+				-1,
+				1,
+				0.811,
+				-1,
+				1.022,
+				1,
+				1.233,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHairPhysicY",
+			"Segments": [
+				0,
+				-1,
+				1,
+				0.2,
+				-1,
+				0.4,
+				0,
+				0.6,
+				0,
+				1,
+				0.811,
+				0,
+				1.022,
+				-1,
+				1.233,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapeY",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.2,
+				0,
+				0.4,
+				-0.6,
+				0.6,
+				-0.6,
+				1,
+				0.811,
+				-0.6,
+				1.022,
+				0,
+				1.233,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCapePhysicY",
+			"Segments": [
+				0,
+				-0.6,
+				1,
+				0.2,
+				-0.6,
+				0.4,
+				0,
+				0.6,
+				0,
+				1,
+				0.811,
+				0,
+				1.022,
+				-0.6,
+				1.233,
+				-0.6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtY",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.2,
+				0,
+				0.4,
+				-0.6,
+				0.6,
+				-0.6,
+				1,
+				0.811,
+				-0.6,
+				1.022,
+				0,
+				1.233,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSkirtPhysicY",
+			"Segments": [
+				0,
+				-0.6,
+				1,
+				0.2,
+				-0.6,
+				0.4,
+				0,
+				0.6,
+				0,
+				1,
+				0.811,
+				0,
+				1.022,
+				-0.6,
+				1.233,
+				-0.6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param",
+			"Segments": [
+				0,
+				-1,
+				0,
+				1.233,
+				-1
+			]
+		}
+	]
+}
