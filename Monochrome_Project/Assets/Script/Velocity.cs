@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Velocity : MonoBehaviour
@@ -8,6 +6,7 @@ public class Velocity : MonoBehaviour
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private float raycastDistance = 0.2f;
     [SerializeField] private LayerMask groundLayer;
+    [field: SerializeField] public Vector3 ZoneRespawn { get; set; }
 
     private void Update()
     {
@@ -24,5 +23,14 @@ public class Velocity : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, raycastDistance, groundLayer);
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.tag == "ZoneDeath")
+        {
+            _rb.velocity = Vector3.zero;
+            transform.position = ZoneRespawn;
+        }
     }
 }

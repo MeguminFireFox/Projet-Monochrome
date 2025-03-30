@@ -61,6 +61,22 @@ public class Jump : MonoBehaviour
         CanJump = true;
     }
 
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.tag == "NoJump")
+        {
+            _jumpForce = 4;
+        }
+    }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.tag == "NoJump")
+        {
+            _jumpForce = 5.5f;
+        }
+    }
+
     void OnDrawGizmos()
     {
         if (_groundCheck != null)
