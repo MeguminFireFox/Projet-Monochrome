@@ -8,9 +8,9 @@ public class MainMenu : MonoBehaviour
 	
 	public GameObject creditsMenu;
 
-    public void PlayGame()
+    public void PlayGame(string sceneName)
 	{
-		SceneManager.LoadScene("Célia");
+		SceneManager.LoadScene(sceneName);
 	}
 
 	public void ReturnMenu()

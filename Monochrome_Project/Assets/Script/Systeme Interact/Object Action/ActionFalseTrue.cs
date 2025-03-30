@@ -12,17 +12,21 @@ public class ActionFalseTrue : MonoBehaviour
     {
         if (!_isActive) return;
         _isActive = false;
-        _animator.SetBool("Activate", !_animator.GetBool("Activate"));
+
+        bool newState = !_animator.GetBool("Activate");
+        _animator.SetBool("Activate", newState);
+
         for (int i = 0; i < _listGameObject.Count; i++)
         {
-            _listGameObject[i].SetActive(!_listGameObject[i]);
+            _listGameObject[i].SetActive(!_listGameObject[i].activeSelf);
         }
+
         StartCoroutine(Wait());
     }
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(1);
         _isActive = true;
     }
 }
