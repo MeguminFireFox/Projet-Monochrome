@@ -13,7 +13,7 @@ public class Jump : MonoBehaviour
     [SerializeField] private float _radius;
     [SerializeField] private LayerMask _collisionLayer;
     [SerializeField] private LayerMask _verifSol;
-    //[SerializeField] private Animator _animator;
+    [SerializeField] private Animator _animator;
     private Collider[] _colliders;
 
     private void Update()
@@ -22,6 +22,12 @@ public class Jump : MonoBehaviour
         {
             _jump = Physics.OverlapSphere(_groundCheck.position, _radius, _collisionLayer).Length > 0;
             _colliders = Physics.OverlapSphere(_groundCheck.position, _radius, _collisionLayer);
+            _animator.SetBool("IsJump", !_jump);
+
+            if (_jump)
+            {
+                _rb.velocity = Vector3.zero;
+            }
         }
     }
 
@@ -33,7 +39,7 @@ public class Jump : MonoBehaviour
         {
             if (context.performed && _jump && collider.gameObject != this.gameObject)
             {
-                //_animator.SetBool("IsJump", true);
+                _animator.SetBool("Jump", true);
 
                 ActiveJump();
             }
@@ -51,7 +57,7 @@ public class Jump : MonoBehaviour
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(0.1f);
-        //_animator.SetBool("IsJump", false);
+        _animator.SetBool("Jump", false);
         CanJump = true;
     }
 

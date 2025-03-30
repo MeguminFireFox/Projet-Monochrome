@@ -3,6 +3,7 @@ using UnityEngine;
 public class TurnTowardCamera1 : MonoBehaviour
 {
     private Camera mainCamera;
+    [SerializeField] private Movement _movement;
 
     void Start()
     {
@@ -11,13 +12,18 @@ public class TurnTowardCamera1 : MonoBehaviour
 
     void Update()
     {
-        if (mainCamera != null)
+        if (mainCamera != null && _movement != null)
         {
             Quaternion currentRotation = transform.rotation;
 
-            transform.rotation = Quaternion.LookRotation(mainCamera.transform.forward, Vector3.up);
+            Quaternion targetRotation = Quaternion.LookRotation(mainCamera.transform.forward, Vector3.up);
 
-            transform.rotation = Quaternion.Euler(currentRotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+            if (_movement.MovementDirection == -1)
+            {
+                targetRotation = Quaternion.Euler(targetRotation.eulerAngles.x, targetRotation.eulerAngles.y + 180, targetRotation.eulerAngles.z);
+            }
+
+            transform.rotation = Quaternion.Euler(currentRotation.eulerAngles.x, targetRotation.eulerAngles.y, currentRotation.eulerAngles.z);
         }
     }
 }
