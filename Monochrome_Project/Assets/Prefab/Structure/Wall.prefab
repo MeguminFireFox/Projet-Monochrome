@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1554104650992032091}
   - component: {fileID: 6609367225458308812}
   - component: {fileID: 2327294577151676421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 5863805018509086983}
   - component: {fileID: 201512349221423089}
   - component: {fileID: 3160418512776186033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 430823099424790231}
   - component: {fileID: 2292414124855390446}
   - component: {fileID: 7459853726015013561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 2683903383626270224}
   - component: {fileID: 4915983461913863794}
   - component: {fileID: 9074315485534161840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doorcontours2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 1089639678545147870}
   - component: {fileID: 2721898554800079367}
   - component: {fileID: 1082917256821897720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8095889457208491115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9138770406451307331}
-  m_Layer: 0
+  - component: {fileID: 1355203132114438943}
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,6 +532,27 @@ Transform:
   - {fileID: 8095889457208491115}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1355203132114438943
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826356568700511693}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8834209788110743148
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +564,7 @@ GameObject:
   - component: {fileID: 5103277852851627081}
   - component: {fileID: 624240093956330929}
   - component: {fileID: 843538053834084599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doorcontours
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8784352128983688093}
   - component: {fileID: 9220013751482275275}
   - component: {fileID: 8813388136558525711}
-  m_Layer: 0
+  - component: {fileID: 3037751893805807135}
+  m_Layer: 6
   m_Name: cube_cut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3037751893805807135
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689637740539914461}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.000973, y: 26.311977, z: 5.000973}
+  m_Center: {x: 2.5004861, y: -13.155989, z: -2.5004866}

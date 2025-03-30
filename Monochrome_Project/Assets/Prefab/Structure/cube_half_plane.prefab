@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4419004134408181806}
   - component: {fileID: 2067180683189487102}
   - component: {fileID: 2475928744617728222}
-  m_Layer: 0
+  - component: {fileID: -164502951845008723}
+  m_Layer: 6
   m_Name: cube_half_plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,3 +84,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-164502951845008723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3803445185042587809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.000973, y: 0, z: 2.500486}
+  m_Center: {x: 2.500487, y: 0, z: -1.250243}
