@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-	public GameObject pauseMenu;
+	
+	public GameObject creditsMenu;
 
     public void PlayGame()
 	{
@@ -22,5 +23,18 @@ public class MainMenu : MonoBehaviour
 		Application.Quit();
 	}
 
-	
+	public void CreditsMenu()
+	{
+		creditsMenu.gameObject.SetActive(true);
+
+		
+	}
+
+	private void Update()
+	{
+		if ((Input.GetKeyDown(KeyCode.Escape)) && (creditsMenu.activeInHierarchy))
+		{
+			creditsMenu.gameObject.SetActive(!creditsMenu.gameObject.activeSelf);
+		}
+	}
 }
